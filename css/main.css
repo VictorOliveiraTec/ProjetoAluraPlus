@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--text-white);
+
+}
+
+main section{
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+main section p{
+    color: var(--text-ccii);
+}
+
+main section .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main section div .up-font{
+    font-size: 3rem;
+}
+
+main .assine .text a{
+    text-align: center;
+    background-color: var(--back-blue);
+    color: var(--text-white);
+    display: block;
+    width: 30%;
+    padding: 8px;
+    border-radius: 8px;
+}
