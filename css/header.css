@@ -1,10 +1,11 @@
 header{
     background-image: url(/assets/Background.png);
+    background-size: contain;
     color: white;
     height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 60px 0px 0px 60px;
+    padding: 6% 0px 0px 4%;
 }
 
 header .Text{

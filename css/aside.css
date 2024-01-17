@@ -24,3 +24,51 @@ aside .imgs div{
 aside .imgs div p{
     font-size: 2rem;
 }
+
+aside .imgs .tv:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    animation: Active 1.5s ease-in-out;
+}
+
+aside .imgs .computadores:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    animation: Actives 2s ease-in-out;
+}
+
+aside .imgs .cell_tablet:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    animation: Activess 1.5s ease-in-out;
+}
+
+@keyframes Active{
+    0%{
+        box-shadow: 4px 3px 175px 21px rgba(235,197,9,0.20);
+    }
+    100%{
+        box-shadow: 4px 3px 175px 21px rgba(235,197,9,0.60);
+        border-radius: 10px 200px 200px 10px;
+    }
+}
+
+@keyframes Actives{
+    0%{
+        box-shadow: 4px 3px 175px 21px rgba(235,197,9,0.20);
+    }
+    100%{
+        box-shadow: 4px 3px 175px 21px rgba(235,197,9,0.60);
+        border-radius: 200px 200px 10px 10px;
+    }
+}
+
+@keyframes Activess{
+    0%{
+        box-shadow: 4px 3px 175px 21px rgba(235,197,9,0.20);
+    }
+    100%{
+        box-shadow: 4px 3px 175px 21px rgba(235,197,9,0.60);
+        border-radius: 200px 10px 10px 200px;
+    }
+}
