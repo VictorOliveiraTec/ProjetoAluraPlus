@@ -1,0 +1,78 @@
+.cabecalho{
+    height: 70vh;
+    background: url("../../img/Background.png") no-repeat center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__assinatura{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    row-gap: 1.8rem;
+
+}
+
+.cabecalho__assinatura__titulo{
+    color: var(--text-branco);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cabecalho__assinatura__termo{
+    font-size: .8rem;
+    color: var(--text-cinza-claro);
+}
+
+.cabecalho__assinatura__nivel{
+    border-radius: 10px;
+    color: var(--text-branco);
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.cabecalho__assinatura__nivel--completo{
+    background-color: var(--back-azul);
+}
+.cabecalho__assinatura__nivel--basico{
+    border: 2px solid var(--text-branco);
+}
+
+@media screen and (max-width: 1240px){
+    .cabecalho__assinatura{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .cabecalho__assinatura{
+        width: 80vw;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 720px){ 
+    .cabecalho__assinatura__titulo{
+        font-size: 1.4rem;
+
+    }
+    .cabecalho__assinatura__termo{
+        font-size: .5rem;
+    }
+    .cabecalho__assinatura__nivel{
+        font-size: .8rem;
+        border-radius: 10px;
+        padding: .8rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .cabecalho__assinatura{
+        width: 100vw;
+
+    }
+}

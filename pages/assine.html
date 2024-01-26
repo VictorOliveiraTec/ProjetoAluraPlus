@@ -12,18 +12,16 @@
 
 <body>
 
-    <main class="Page">
-        <section>
-            <h1>Alura Plus</h1>
-            <div class="Text_input">
-                <p>L<span class="up-color">o</span>g<span class="up-color">in</span></p>
-                <label for="Email">Email</label>
-                <input type="email" name="mail" id="Email">
-                <label for="Senha">Email</label>
-                <input type="password" name="pass" id="Senha">
-                <button>Login</button>
-            </div>
-        </section>
+    <main class="container principal">
+        <h1 class="principal__titulo">Alura Plus</h1>
+        <div class="principal__secao__login">
+            <h2 class="principal__secao__titulo">L<span class="principal__secao__titulo--estilo">o</span>g<span class="principal__secao__titulo--estilo">in</span></h2>
+            <label class="principal__secao__login__label principal__secao__login__label--email" for="Email">Email</label>
+            <input class="principal__secao__login__input principal__secao__login__input--email" type="email" name="mail" id="Email">
+            <label class="principal__secao__login__label principal__secao__login__label--senha" for="Senha">Email</label>
+            <input class="principal__secao__login__input principal__secao__login__input--senha" type="password" name="pass" id="Senha">
+            <button class="principal__secao__login__botao">Login</button>
+        </div>
     </main>
 
 </body>

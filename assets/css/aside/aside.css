@@ -1,0 +1,44 @@
+.extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5rem;
+    padding: 2.5rem 0;
+}
+
+.extra__titulo{
+    color: var(--text-branco);
+    font-size: 2.4rem;
+}
+
+.extra__telas{
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.extra__tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extra__tela__descricao{
+    color: var(--text-branco);
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1024px){
+    .extra__telas{
+        flex-direction: column;
+    }
+    .extra__titulo{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .extra__titulo{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}

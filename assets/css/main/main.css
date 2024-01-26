@@ -1,0 +1,59 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.principal__assistir, .principal__assine, .principal__baixar{
+    display: flex;
+    align-items: center;
+    column-gap: 5rem;
+}
+
+.principal__assistir__text, .principal__assine__text, .principal__baixar__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.principal__assine{
+    flex-direction: row-reverse;
+}
+
+.principal__assistir__text__titulo, .principal__baixar__text__titulo{
+    color: var(--text-branco);
+    font-size: 2.4rem;
+    padding-top: .6rem;
+}
+
+.principal__assine__text__titulo{
+    padding-top: 1rem;
+    color: var(--text-branco);
+    line-height: 1.4;
+}
+
+.principal__assistir__text__descricao, .principal__baixar__text__descricao{
+    color: var(--text-cinza-escuro);
+}
+
+.principal__assine__text__botao{
+    background-color: var(--back-azul);
+    color: var(--text-branco);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .principal__assistir, .principal__assine, .principal__baixar{
+        flex-direction: column;
+        
+    }
+    .principal__assistir__text, .principal__assine__text, .principal__baixar__text{
+        text-align: center;
+    }
+    .principal__assine__text__botao{
+        width: 50%;
+        align-self: center;
+    }
+    
+}
